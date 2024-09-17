@@ -4,12 +4,14 @@
 \alias{BlindBuffer}
 \title{BlindBuffer}
 \usage{
-BlindBuffer(Line, BuffDist, EraseDist)
+BlindBuffer(Line, BuffDist, EraseDist, quadsegs = 4)
 }
 \arguments{
 \item{Line}{An object of class SpatVector that must be a line.}
 
 \item{BuffDist}{The distance to be buffered.}
+
+\item{quadsegs}{positive integer. Number of line segments to use to draw a quart circle.  Passed to terra buffer function.}
 
 \item{startpt}{The distance for the blind spot buffer.}
 }
@@ -18,4 +20,7 @@ Generates a buffer for each line segment with the blind spot near the line remov
 }
 \examples{
 BlindBuffer(Line, 685, 22)
+}
+\author{
+Dylan Schertz
 }

@@ -22,3 +22,6 @@ Checks the specified view direction of tracklogs against a DEM. Flags mismatches
 ViewDirCheck(Lines, DEM)
 
 }
+\author{
+Dylan Schertz
+}

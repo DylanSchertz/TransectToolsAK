@@ -4,12 +4,13 @@
 #' @importFrom terra geom vect
 #'
 #' @param Line An object of class SpatVector that must be a line.
-#' 
-#' 
+#'
+#' @author Dylan Schertz
+#'
 #' @examples
 #' LineReverse(Line)
 #' @export
-#' 
+#'
 LineReverse <- function(Line){
   coords <- geom(Line)
   flippedcoords <- coords[nrow(coords):1,]

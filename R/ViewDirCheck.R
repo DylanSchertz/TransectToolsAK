@@ -8,6 +8,7 @@
 #' @param Outer A numeric value for the distance of the outer buffer of the search area.
 #' @param Inner A numeric value for the distance of the inner erase buffer of the search area.
 #'
+#' @author Dylan Schertz
 #'
 #' @examples
 #' ViewDirCheck(Lines, DEM)

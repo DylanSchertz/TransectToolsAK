@@ -15,3 +15,6 @@ Switches the direction of a SpatVector line
 \examples{
 LineReverse(Line)
 }
+\author{
+Dylan Schertz
+}
